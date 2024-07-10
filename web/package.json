@@ -1,0 +1,51 @@
+{
+  "name": "web",
+  "homepage": "web/build",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "game": "vite build --watch",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mantine/carousel": "latest",
+    "@mantine/code-highlight": "latest",
+    "@mantine/core": "latest",
+    "@mantine/dates": "latest",
+    "@mantine/dropzone": "latest",
+    "@mantine/form": "latest",
+    "@mantine/hooks": "latest",
+    "@mantine/modals": "latest",
+    "@mantine/notifications": "latest",
+    "@mantine/nprogress": "latest",
+    "@mantine/spotlight": "latest",
+    "@mantine/tiptap": "latest",
+    "@tabler/icons-react": "latest",
+    "@tiptap/extension-link": "latest",
+    "@tiptap/react": "latest",
+    "@tiptap/starter-kit": "latest",
+    "console-ban": "latest",
+    "dayjs": "latest",
+    "embla-carousel-react": "^8.0.0-rc15",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "postcss": "^8.4.32",
+    "postcss-preset-mantine": "^1.12.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.2.2",
+    "vite": "latest"
+  }
+}
